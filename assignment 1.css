@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+   background-image: url(/css/3Feb/assignment\ 1\ pexels-maxyne-barcel-10402282\ 1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+font-family: 'Unbounded', cursive;
+
+}
+
+
+/* header--------------------------------------------------- */
+header img{
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    padding-top: 3vh;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    margin-top: 25px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(201, 201, 3);
+    font-weight: 700;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: rgb(56, 204, 83);
+    text-decoration: underline;
+    font-style: italic;
+}
+
+ul li{
+    list-style: none;
+
+}
+
+.btn{
+    padding-right: 40px;
+    margin-top: 17px;
+}
+.btn button{
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: rgb(230, 102, 102);
+    color: rgb(250, 250, 250);
+    border: none;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/* section------------------------------------------ */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+
+pre{
+    font-size: 10vh;
+    font-weight: 900;
+    height: 27vw;
+}
+
+
+.btn1 button{
+    padding: 16px 15px;
+    color: white;
+    background-color:rgb(230, 102, 102) ;
+    font-weight: 600;
+    border: none;
+    
+}
+
+.btn1 button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    height: 28vh;
+}
+
+footer img{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin-right: 50px;
+    
+}
+
+
+
+
+
